@@ -1,0 +1,12 @@
+{
+  "name": "js-hindi-youtube",
+  "version": "1.0.0",
+  "description": "A code repo of javascript series for learning by chai and code youtube channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
