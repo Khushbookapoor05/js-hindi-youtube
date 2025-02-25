@@ -40,3 +40,27 @@ console.log(typeof myFunction); // called as function object
    #All of the non-primitive data types, there data type is actually called function.
    #But the return of function is special , it is called the object function 
    */
+
+
+   /**  Stack memory (Primtive data types) and Heap memory (Non-Primitive data types) **/
+
+let myYoutubename = "hiteshchoudharydotcom"
+let anothername = myYoutubename
+   anothername ="chai and code"
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+  email: "user@google.com",
+  upi:"user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+ 
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
