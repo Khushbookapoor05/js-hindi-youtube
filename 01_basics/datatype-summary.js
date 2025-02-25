@@ -6,6 +6,8 @@
 
 // Objects , Arrays , Functions
 
+//*************PRIMITIVE***************//
+
   const score =100
   const scoreValue =100.3  // both are in numbers category
 
@@ -20,8 +22,9 @@
 // console.log( ID === anotherID);
 const BigNumber = 346528756788n
 
+//**************NON-PRIMITIVE****************// 
 
-const heroes = ["shaktiman","nagaraj","doga"]
+// const heroes = ["shaktiman","nagaraj","doga"]
  let myObj = {
      name : "khushi",
      age : 20,
