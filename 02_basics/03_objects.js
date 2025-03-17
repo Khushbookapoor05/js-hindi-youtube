@@ -9,11 +9,36 @@ It is the only object in its kind.
 
 // Objects literals
 
+const mySym = Symbol("key1")
+
 const JsUser = {
     name : "Hitesh",
-    age : 21,
+    "full name" : "Hitesh Choudhary",
+    [mySym] : "mykey1", // if we want the symbol as a symbol then we use [mySym] instead of mySym which gives the datatype string//
+    age : 23,
     location: "Jaipur",
     email: "hitesh@google.com",
     isLoggedIn: false,
     lastLoginDays :["Monday","Saturday"] 
+  }
+// console.log(JsUser.email);
+// console.log(JsUser["email"]);
+// console.log(JsUser["full name"]);
+// console.log(JsUser[mySym]);
+
+JsUser.email = "hitesh@chatgpt.com"
+//Object.freeze(JsUser)
+JsUser.email = "hitesh@microsoft.com"
+//console.log(JsUser);
+
+JsUser.greeting = function(){
+    console.log("Hello JS Word");    
 }
+console.log(JsUser.greeting());
+
+JsUser.greetingTwo = function(){
+    console.log(`Hello JS Word ,${this.name}`);    
+}
+console.log(JsUser.greetingTwo());
+
+
