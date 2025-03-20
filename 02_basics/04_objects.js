@@ -64,7 +64,10 @@ console.log(Object.entries(tinderUser));
 
 /* if any value stuck into a loop */
 //console.log(tinderUser.hasOwnProperty(isLoggedIn));
+    
 
+
+/**************DE-STRUCTURING*******************/
 
 const course = {
  coursename: "js-in-hindi",
@@ -72,4 +75,30 @@ const course = {
  courseinstructor: "hitesh"
 }
 //console.log(course.courseinstructor);
-const course {courseinstructor : instructor} = course
+/**********one more syntax for printing the values***********/
+const {courseinstructor : instructor} = course
+console.log(instructor);
+
+/***********de-structuring in react***************/
+/*
+const navbar  = ({company})  => {
+
+}   // Instead of using props.company again and again , we use this : ({company})  
+
+navbar (company ="hitesh")
+*/
+
+
+/***********API'S*********** Firstly the values comes from the backend in XML structure, but the values are comes in the JSON structure**/
+/*** In JSON , When we get the API'S in the object format: Inside the curly brasis ,the keys and values both are in string datatypes**/
+// {
+//     "name" : "hitesh",
+//     "coursename" : "js-in-hindi",
+//      "price" : "free"
+// }
+/*** Sometimes API'S are in array format ***/
+// [
+//     {}, 
+//     {},
+//     {}
+// ]
