@@ -47,6 +47,6 @@ if (userLoggedIn && debitCard && 2==3) {     // [ {&& = AND} :- It checks that b
     console.log("Allow to buy course");     
 }
 
-if (loggedInFromGoogle || loggedInFromEmail ) {    // [ {|| = OR} :- It checks that both conditions must be true.]
+if (loggedInFromGoogle || loggedInFromEmail ) {    // [ {|| = OR} :- It checks that any one conditions must be true.]
     console.log("User logged in");
 }
