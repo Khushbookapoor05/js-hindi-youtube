@@ -18,8 +18,32 @@ for (let i = 0; i <= 10; i++) {
  }
 
  let myArray =[ "flash" , "batman" , "superman"]
-
+ // console.log(myArray.length);
  for (let index = 0; index < myArray.length; index++) {
     const element = myArray[index];
+    //console.log(element);
     
  }
+
+ // break and continue 
+
+//  for (let i = 0; i < 20; i++) {
+//     const element = i + 1 ;
+//     console.log(element);  
+// //  }
+
+//  for (let i = 1; i <= 20; i++) {
+//     if (i == 5) {
+//         console.log("Detected 5");
+//         break
+//     }
+//     console.log(`Value of i is : ${i}`);  
+//  }
+
+for (let i = 1; i <= 20; i++) {
+    if (i == 5) {
+         console.log("Detected 5");
+         continue                      // if yo do any mistake then that mistake should be ignore call
+     }                                 // this will skip your condition for once
+    console.log(`Value of i is : ${i}`);
+  }
