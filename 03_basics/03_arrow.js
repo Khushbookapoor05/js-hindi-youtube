@@ -38,12 +38,12 @@ console.log(this);  // outside the  function or scope the value of this is :{}
 // }
 
 /* Implicit Return */
-//const addtwo = (num1,num2) => num1 + num2 
+//const addtwo = (num1,num2) => num1 + num2    // this will return {}
     
-//const addtwo = (num1,num2) => (num1 + num2)
+//const addtwo = (num1,num2) => (num1 + num2)      // this will return {}
  
 /* for return the the object */
-const addtwo = (num1,num2) => ({username: "hitesh"})
+const addtwo = (num1,num2) => ({username: "hitesh"})     // this will return actual value of object
     console.log((addtwo(3,4)));
 
 //const myArrays  =[2,4,6,8,10]
