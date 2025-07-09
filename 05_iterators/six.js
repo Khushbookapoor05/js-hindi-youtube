@@ -14,7 +14,7 @@ const myNums = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 // *  const numbers = myNums.filter((item)=>{
 // *     console.log(item);
-// *     return item            // its imp to return the item ,so that we get the item returmn in the output 
+// *     return item            // its imp to return the item ,so that we get the item return in the output 
 // *  })
 // *   console.log(numbers)
 
@@ -30,13 +30,13 @@ const myNums = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 // if we want to do the same work by using forEach loop
 
-// const newNums = []
-// myNums.forEach( (num)=> {
-//     if (num > 4) {
-//     newNums.push(num)
-//     }
-// })
-// console.log(newNums);
+//  const newNums = []
+//  myNums.forEach( (num)=> {
+//      if (num > 4) {
+//      newNums.push(num)
+//      }
+//  })
+//  console.log(newNums);
 
 const Books = [
     { Title : 'Book One' , Subject : 'fiction' , Publish : 1987,
